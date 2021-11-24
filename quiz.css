@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap");
+body {
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.grid::before {
+  background: url(bg.jpg);
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  z-index: -1;
+  opacity: 0.3;
+}
+.grid {
+  width: 600px;
+  height: 570px;
+  margin: 0 auto;
+  background-color: rgb(35, 29, 61);
+  padding: 10px 50px 50px 50px;
+  border: 2px solid #cbcbcb;
+}
+
+.grid h1 {
+  font-family: "sans-serif";
+  background-color: #0f7094;
+  font-size: 40px;
+  text-align: center;
+  color: #fdfdfd;
+  padding: 2px 0px;
+  font-family: "Mochiy Pop One", sans-serif;
+}
+
+#score {
+  color: #01bbff;
+  text-align: center;
+  font-size: 30px;
+}
+
+.grid #question {
+  font-family: "monospace";
+  font-size: 30px;
+  color: #01bbff;
+  font-family: "Lexend Deca", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+#btn0,
+#btn1,
+#btn2,
+#btn3 {
+  background-color: #6798aa;
+  width: 250px;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #1d3c6a;
+  margin: 10px 40px 10px 0px;
+  padding: 10px 10px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+#btn0:hover,
+#btn1:hover,
+#btn2:hover,
+#btn3:hover {
+  cursor: pointer;
+  background-color: #01bbff;
+}
+
+#btn0:focus,
+#btn1:focus,
+#btn2:focus,
+#btn3:focus {
+  outline: 0;
+}
+
+#progress {
+  color: #fffefe;
+  font-size: 18px;
+  text-align: center;
+  font-size: 30px;
+}
